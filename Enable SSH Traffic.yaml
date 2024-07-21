@@ -1,6 +1,3 @@
-AWSTemplateFormatVersion: 2010-09-09
-Description: Part 2 - Add security group for SSH and HTTP/HTTPS traffic
-
 Resources:
   WebAppInstance:
     Type: AWS::EC2::Instance
