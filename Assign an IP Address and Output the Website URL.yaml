@@ -1,6 +1,3 @@
-AWSTemplateFormatVersion: 2010-09-09
-Description: Part 3 - Assign Elastic IP and output URL
-
 Resources:
   WebAppInstance:
     Type: AWS::EC2::Instance
