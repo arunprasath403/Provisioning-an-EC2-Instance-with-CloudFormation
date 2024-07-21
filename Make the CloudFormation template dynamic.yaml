@@ -1,6 +1,3 @@
-AWSTemplateFormatVersion: 2010-09-09
-Description: Part 4 - Make the CloudFormation template dynamic
-
 Parameters:
   AvailabilityZone:
     Type: AWS::EC2::AvailabilityZone::Name
