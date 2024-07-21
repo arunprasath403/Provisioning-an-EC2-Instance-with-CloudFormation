@@ -27,8 +27,7 @@
 
   <p>Create a basic EC2 instance using CloudFormation.</p>
 
-  <pre><code>AWSTemplateFormatVersion: 2010-09-09
-Description: Part 1 - Build a webapp stack with CloudFormation
+  <pre><code>
 
 Resources:
   WebAppInstance:
@@ -47,9 +46,7 @@ Resources:
 
   <p>Update the CloudFormation template to add a security group allowing SSH (port 22), and HTTP/HTTPS (ports 80 and 443) traffic.</p>
 
-  <pre><code>AWSTemplateFormatVersion: 2010-09-09
-Description: Part 2 - Add security group for SSH and HTTP/HTTPS traffic
-
+  <pre><code>
 Resources:
   WebAppInstance:
     Type: AWS::EC2::Instance
@@ -89,8 +86,7 @@ Resources:
 
   <p>Assign an Elastic IP address to the EC2 instance and output the website URL.</p>
 
-  <pre><code>AWSTemplateFormatVersion: 2010-09-09
-Description: Part 3 - Assign Elastic IP and output URL
+  <pre><code> Assign Elastic IP and output URL
 
 Resources:
   WebAppInstance:
@@ -145,8 +141,7 @@ Outputs:
 
   <p>Enhance the template by making it dynamic with parameters and mappings for environment type, instance type, AMI ID, etc.</p>
 
-  <pre><code>AWSTemplateFormatVersion: 2010-09-09
-Description: Part 4 - Make the CloudFormation template dynamic
+  <pre><code> Make the CloudFormation template dynamic
 
 Parameters:
   AvailabilityZone:
